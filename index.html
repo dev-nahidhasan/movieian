@@ -11,6 +11,10 @@
         content="free movie, watch free movie, movieian, mlwbd, hindi movie, hindi dubbing movie, hindi dubbed tamil movie">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+
+    <script type='text/javascript'
+        src='//pl18146750.highrevenuecpmnetwork.com/bc/e3/d6/bce3d61b02a2b01e840cd01342338d72.js'></script>
+
 </head>
 
 <body>
@@ -27,10 +31,11 @@
             </div>
         </div>
     </nav>
+
     <!-- -------------Sidebar----------->
     <div class="sidebar">
         <div class="short-links">
-            <a href=""><img src="images/home.png">
+            <a href="https://movieian.com/"><img src="images/home.png">
                 <p>Home</p>
             </a>
             <a href=""><img src="images/explore.png">
@@ -73,8 +78,16 @@
             for (i = 0; i < x.length; i++) {
                 a = x[i].getElementsByClassName("vid-info")[0];
                 b = a.getElementsByTagName("a")[0];
+                c = a.getElementsByTagName("p")[0];
                 txtValue = b.textContent || b.innerText;
+                tValue = c.textContent || c.innerText;
                 if (txtValue.toLowerCase().includes(input)) {
+                    x[i].style.display = "";
+                } else {
+                    x[i].style.display = "none";
+                }
+
+                if (tValue.toLowerCase().includes(input)) {
                     x[i].style.display = "";
                 } else {
                     x[i].style.display = "none";
@@ -84,6 +97,10 @@
     </script>
 
     <!----------movie container--------->
+
+    <script async="async" data-cfasync="false"
+        src="//pl18146761.highrevenuecpmnetwork.com/f6e530086baac05955b913376a3eda5a/invoke.js"></script>
+    <div id="container-f6e530086baac05955b913376a3eda5a"></div>
 
     <div class="container">
         <div class="list-container">
@@ -95,7 +112,7 @@
                     <div class="vid-info">
                         <a href="pushpa-the-rise.html">Pushpa: The Rise - Part 1 720p HD Hindi Dubbed Movie
                             Download</a>
-                        <p>Movieian</p>
+                        <p>Hindi Dub</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +123,7 @@
                 <div class="flex-div">
                     <div class="vid-info">
                         <a href="kgf-chapter-2.html">KGF Chapter 2 Full Movie Download Hindi Dubbed</a>
-                        <p>Movieian</p>
+                        <p>Hindi Dub</p>
                     </div>
                 </div>
             </div>
@@ -117,7 +134,7 @@
                 <div class="flex-div">
                     <div class="vid-info">
                         <a href="gangubai-kathiawadi.html">Gangubai Kathiwadi Full Hd Movie Download</a>
-                        <p>Movieian</p>
+                        <p>Hindi | Bollywood</p>
                     </div>
                 </div>
             </div>
@@ -128,7 +145,7 @@
                 <div class="flex-div">
                     <div class="vid-info">
                         <a href="monpura-bangla-hd.html">Monpura Bangla Full HD 720p Movie Download</a>
-                        <p>Movieian</p>
+                        <p>Bangla | Bengali</p>
                     </div>
                 </div>
             </div>
