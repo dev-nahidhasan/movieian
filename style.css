@@ -167,6 +167,16 @@ nav {
     text-align: center;
 }
 
+.container .desktop {
+    align-items: center;
+    text-align: center;
+}
+
+.container .mobile {
+    align-items: center;
+    text-align: center;
+}
+
 .large-container {
     padding-left: 7%;
 }
