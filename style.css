@@ -206,6 +206,10 @@ nav {
         display: none;
     }
 
+    .container-details .desktop {
+        display: none;
+    }
+
     .nav-right .search-box input {
         width: 120px;
     }
