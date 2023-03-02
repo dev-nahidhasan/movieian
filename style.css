@@ -79,8 +79,8 @@ nav {
     text-size: 10px;
 }
 
-.bicon {
-    width: 30px;
+.bnav-right .bicon {
+    width: 20px;
 }
 
 .bnav-right a {
