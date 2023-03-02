@@ -76,7 +76,6 @@ nav {
     align-items: center;
     display: block;
     text-align: center;
-    tab-size: 12px;
 }
 
 .bicon {
@@ -86,6 +85,7 @@ nav {
 .bnav-right a {
     color: #00c3dd;
     font-weight: 400;
+    text-size: 12px;
     display: block;
 }
 
