@@ -86,6 +86,7 @@ nav {
 .bnav-right a {
     color: #00c3dd;
     display: block;
+    text-size: 10px;
 }
 
 /*---------------sidebar--------------*/
