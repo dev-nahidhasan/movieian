@@ -116,16 +116,8 @@
             for (i = 0; i < x.length; i++) {
                 a = x[i].getElementsByClassName("vid-info")[0];
                 b = a.getElementsByTagName("a")[0];
-                c = a.getElementsByTagName("p")[0];
                 txtValue = b.textContent || b.innerText;
-                tValue = c.textContent || c.innerText;
                 if (txtValue.toLowerCase().includes(input)) {
-                    x[i].style.display = "";
-                } else {
-                    x[i].style.display = "none";
-                }
-
-                if (tValue.toLowerCase().includes(input)) {
                     x[i].style.display = "";
                 } else {
                     x[i].style.display = "none";
