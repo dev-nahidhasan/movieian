@@ -76,7 +76,6 @@ nav {
     align-items: center;
     display: block;
     text-align: center;
-    text-size: 10px;
 }
 
 .bnav-right .bicon {
@@ -86,7 +85,7 @@ nav {
 .bnav-right a {
     color: #00c3dd;
     display: block;
-    text-size: 10px;
+    text-size: 30px;
 }
 
 /*---------------sidebar--------------*/
